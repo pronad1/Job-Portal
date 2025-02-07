@@ -2,6 +2,7 @@
 
 namespace App\Mail;
 
+
 use App\Models\Job;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
