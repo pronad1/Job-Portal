@@ -3,6 +3,7 @@
 
 use Illuminate\Support\Facades\Route;
 use Illuminate\Translation\ArrayLoader;
+
 //use App\Models\Job;
 
 use App\Http\Controllers\JobController;
