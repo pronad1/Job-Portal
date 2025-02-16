@@ -6,6 +6,7 @@ use Illuminate\Translation\ArrayLoader;
 
 //use App\Models\Job;
 
+
 use App\Http\Controllers\JobController;
 use App\Http\Controllers\RegisteredUserController;
 use App\Http\Controllers\SessionController;
@@ -18,7 +19,7 @@ use App\Models\Job;
 use Illuminate\Support\Facades\Mail;
 use Pest\Plugins\Only;
 
-Route::get('test',function(){
+Route::get('test', function () {
     $job = Job::first(); // Replace 1 with the actual job ID or logic to get the job
     Mail::to('prosenjit1156@gmail.com')->send(
         new JobPosted($job)
